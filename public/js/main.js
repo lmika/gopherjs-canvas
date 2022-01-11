@@ -30,6 +30,7 @@ window.addEventListener("DOMContentLoaded", () => {
         ev.preventDefault();
 
         console.log("Loading image");
-        wasm.exports.loadImage();
+        //wasm.exports.loadImage();
+        wasmExports.loadImage();
     })
 })
